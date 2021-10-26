@@ -164,3 +164,10 @@ form {
   justify-content: space-evenly;
   margin-top: 70px;
 }
+
+#timer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

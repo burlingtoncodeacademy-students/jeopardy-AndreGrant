@@ -35,3 +35,7 @@ p {
   height: 100px;
   margin-top: 60vh;
 }
+
+#timer {
+  height: 50px;
+}
