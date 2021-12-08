@@ -1,8 +1,12 @@
 body {
-  background: url("https://images.squarespace-cdn.com/content/v1/5bc58608348cd9430c0c030d/1545076196058-LSVN5HEDO5IQL0Q0IBXA/_Jeopardy+Logo_LOOP_16x9+%280%3B00%3B05%3B00%29.png?format=1000w");
-  height: 100vh;
-  background-size: cover;
-  overflow: hidden;
+  background-color: rgb(133, 21, 133);
+}
+
+.jeop-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 h1 {
@@ -17,23 +21,10 @@ p {
   color: white;
 }
 
-/* .image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} */
-
-#button {
+.button {
   display: flex;
-  flex-direction: column;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  text-decoration: rgb(138, 103, 141);
-  font-size: 40px;
-  align-items: center;
-  height: 100px;
-  margin-top: 60vh;
+  justify-content: center;
+  margin-top: 1.5em;
 }
 
 #timer {

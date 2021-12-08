@@ -147,7 +147,7 @@ form {
   justify-content: center;
 }
 
-#gameButt {
+.gameButt {
   display: flex;
   justify-content: center;
   margin: 20px;
