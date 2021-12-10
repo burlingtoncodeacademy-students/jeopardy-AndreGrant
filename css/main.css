@@ -1,7 +1,9 @@
+/* set body color to purple */
 body {
   background-color: rgb(133, 21, 133);
 }
 
+/* sizing main page image */
 .jeop-img {
   display: block;
   margin-left: auto;
@@ -9,6 +11,7 @@ body {
   width: 50%;
 }
 
+/* styling for headers */
 h1 {
   padding: none;
   color: rgb(251, 249, 251);

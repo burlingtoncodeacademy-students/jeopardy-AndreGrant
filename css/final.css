@@ -2,10 +2,18 @@ body {
   background: url("https://i.redd.it/glehaz6btt031.png");
 }
 
+/* styling for headers */
 h1 {
   text-align: center;
   color: aliceblue;
   margin-top: 120px;
+}
+
+/* styling for headers */
+h3 {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -15,6 +23,7 @@ p {
   border-style: solid;
 }
 
+/* styling for button below */
 button {
   background-color: #ebeae4; /* Green */
   color: rgb(0, 0, 0);
@@ -26,13 +35,7 @@ button {
   margin: 4px 2px;
 }
 
-h3{
-  color:aliceblue;
-  display: flex;
-  justify-content: center;
-}
-
-form{
+form {
   display: flex;
   justify-content: center;
 }

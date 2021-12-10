@@ -1,3 +1,4 @@
+/* background set as a photo */
 body {
   background: url("https://i.redd.it/glehaz6btt031.png");
 }
@@ -8,12 +9,14 @@ body {
   padding-right: 270px;
 }
 
+/* defaualt styling  */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+/* styling for headers */
 h1 {
   padding-top: 10vh;
   font-size: 50px;
@@ -35,6 +38,7 @@ h2 {
   grid-template-areas: "one" "two" "three" "four" "five" "six";
 }
 
+/* below is styling for all jeop cards */
 .one {
   grid-area: one;
   width: 200px;
@@ -142,6 +146,7 @@ h2 {
   background-color: blanchedalmond;
 }
 
+/* styling for button below*/
 form {
   display: flex;
   justify-content: center;
@@ -159,6 +164,7 @@ form {
   right: 0px;
 }
 
+/* score styling */
 .score {
   color: aliceblue;
   display: flex;
@@ -167,6 +173,7 @@ form {
   margin-top: 50px;
 }
 
+/* timer id styling */
 #timer {
   height: 50px;
   display: flex;

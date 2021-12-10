@@ -1,3 +1,5 @@
+//code for a timer for the jeopardy page, counts down from 5mins
+
 let counter = document.getElementById("timer");
 let idTimer = null;
 

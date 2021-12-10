@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeopardy</title>
+    <!-- link to css for styling -->
     <link rel="stylesheet" href="css/roundTwo.css" />
   </head>
   <body>
+    <!-- header for game -->
     <h1>Double Jeopardy!</h1>
     <h2 id="timer"></h2>
     <div class="border">
       <div class="container">
+        <!-- divs containing all squares for board -->
         <div class="one">Cat 1</div>
         <div class="two">Cat 2</div>
         <div class="three">Cat 3</div>
@@ -57,6 +60,7 @@
       </div>
     </div>
     <nav>
+      <!-- link to final jeop board as a button -->
       <a href="final-jeopardy.html"
         ><div id="button">
           <button type="button">Final Jeopardy ></button>
@@ -67,14 +71,17 @@
       <label for="guess"></label>
       <input type="text" id="answer" name="answer" />
     </form>
+    <!-- guess and pass buttons for game -->
     <div id="gameButt">
       <button>Guess</button>
       <button>Pass</button>
     </div>
+    <!-- player score count -->
     <div class="score">
       <p>Player 1: 0</p>
       <p>Player 2: 0</p>
     </div>
+    <!-- importing timer -->
     <script src="scripts/index.js"></script>
   </body>
 </html>
